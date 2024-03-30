@@ -2467,14 +2467,16 @@ input[type=submit]:focus {
   padding-bottom: 100px;
   position: relative;
 }
-.shape-search-section .slider-shape {
-  background-image: url(assets/images/slider-pattern.png);
+ .slider-shape {
+  background-image: url(/assets/images/slider-pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
+  z-index: 10;
   height: 144px;
+  position: relative;
   width: 100%;
-  margin-top: -70px;
+  margin-top: -105px;
 }
 @media screen and (min-width: 576px) {
   .shape-search-section .trip-search-inner {
@@ -4458,6 +4460,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
   background-color: #404040;
   padding: 30px 0;
 }
+.copy-right {
+  display: flex ;
+  justify-content: space-between;
+}
 .site-footer .copy-right {
   color: #ffffff;
 }
@@ -5828,6 +5834,12 @@ procduct details css
   height: 60px;
   text-align: center;
   width: 60px;
+}
+.details-content {
+  color: #0791BE;
+}
+.details-content:hover {
+  color: #F56960;
 }
 .contact-detail-wrap .details-list .details-content {
   width: -moz-calc(100% - 60px);
