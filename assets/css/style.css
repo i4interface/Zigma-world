@@ -8771,3 +8771,31 @@ product checkout css
 }
 
 /*# sourceMappingURL=style.css.map */
+.whatsapp{
+  display: flex;
+  position: fixed;
+  z-index: 99999;
+  bottom: 10%;
+  right: 4%;
+  /* padding: 10px; */
+  width: 80px;
+  height: 80px;
+  /* background: white; */
+  border: none;
+  align-items: center;
+  justify-content: center;
+  /* filter: drop-shadow(2px 7px 9px #47f882); */
+  animation: float 2s ease-in-out infinite;
+  }
+  @keyframes float{
+  0%{
+   translate: 0px 0px ;
+  }
+  50%{
+    translate: 0px 25px ;
+  }
+   100%{
+     translate: 0px 0px ;
+   }
+  }
+  
